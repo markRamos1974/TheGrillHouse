@@ -27,7 +27,7 @@ h1 {
 h3 {
     font-family: "Ubuntu", sans-serif !important; 
     color: var(--red-color);
-    font-size: 20px;
+    font-size: 25px;
 
     margin: 0px;
 }
@@ -39,3 +39,18 @@ h3 {
     background-color: var(--black-color);
 }
 
+.root-container {
+    position: relative;
+
+    overflow-x: hidden !important;
+}
+
+.col{
+    padding: 0px !important;
+   
+}
+
+.row{
+    position: relative;
+    margin-bottom: 0px;
+}

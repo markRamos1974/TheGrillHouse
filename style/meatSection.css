@@ -23,3 +23,120 @@
     justify-content: center;
     align-items: center;
 }
+
+
+.meat{
+    background-image: url("../assets/Mobile/mobile-meat-image.png");
+    background-position: contain !important;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    width: 233px;
+    height: 197px;
+}
+
+.meat-title {
+    margin-bottom: 10px;
+    font-weight: 500;
+
+}
+
+.meat-paragraph {
+    line-height: 20px !important;
+    font-size: 12px;
+    width: 335px;
+    margin-bottom: 30px;
+}
+
+.meat-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (min-width: 601px) and (max-width: 992px) {
+    .background-meat-section{
+        display: none;
+    }
+    .meat-section {
+        background-color: var(--black-color);
+        
+    }
+    .meat-content {
+        justify-content: start;
+        align-items: start;
+    }
+
+    .meat-paragraph {
+        text-align: start !important;
+        width: 310px;
+        margin-bottom: 0px;
+    }
+
+    .meat-section-main-wrapper {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+     
+    .meat-title {
+        text-align: start;
+        font-size: 30px;
+    }
+
+    .meat-content {
+        height: 197px;
+        position: relative;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+    }
+}
+
+@media (min-width: 993px) {
+    .meat {
+        background-image: url("../assets/Desktop/desktop-meat-image.png");
+        width: 499.63px;
+        height: 379.17px;
+        background-size: contain;
+    }
+    .meat-title {
+        text-align: start;
+        font-size: 35px;
+        margin-bottom: 15px !important;
+    }
+    .meat-section-main-wrapper {
+        padding-top: 80px;
+        padding-bottom: 80px;
+     
+    }
+
+    .meat-paragraph {
+        text-align: start;
+        font-size: 15px;
+        width: 97%;
+        line-height: 31.7px !important;
+    }
+
+    .meat-section{
+        background-color: var(--black-color );
+    }
+    .meat-content {
+        height: 379.17px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+    }
+
+    .container {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+}
