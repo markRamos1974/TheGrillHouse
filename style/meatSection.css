@@ -1,0 +1,25 @@
+:root {
+    --red-color: #ED1C24;
+    --white-color: #FFFFFF;
+    --black-color: #262626;
+}
+
+.meat-section{
+    position: relative;
+}
+.meat-section-main-wrapper{
+    padding-top: 30px;
+}
+.background-meat-section{
+    position: absolute;
+    width: 100vw;
+    height: 279px;
+    background-color: var(--black-color);
+    z-index: -1;
+}
+
+.meat-section-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

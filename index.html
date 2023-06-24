@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Grill House</title>
+
+    <!-- Google Fonts  CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Materialize Css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="./style/global.css">
+    <link rel="stylesheet" href="./style/navbar.css">
+    <link rel="stylesheet" href="./style/hero.css">
+    <link rel="stylesheet" href="./style/meatSection.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar-wrapper">
+        <nav class="z-depth-0">
+            <div class="nav-wrapper">
+          
+                <a href="#" class="brand-logo left">
+                    <div class="logo-placeholder"></div>
+                </a>
+         
+                <div class="hide-on-large-only right hamburger-menu sidenav-trigger" data-target="slide-out">
+                    <img src="./assets/Mobile/hamburger-white.png" alt="hamburger-menu" >
+                </div>
+
+
+                <ul id="slide-out" class="sidenav">
+                    <div class="hide-on-large-only right hamburger-menu hamburger-menu-side-nav sidenav-close">
+                        <a href="#" >
+                            <img src="./assets/Mobile/hamburger-black.png" alt="hamburger-menu" >
+                        </a>
+                    </div>
+                    <ul class="mobile-menu-links right-align">
+                        <li><a href="#"><h1>HOME</h1></a></li>
+                        <li><a href="#"><h1>SERVICE</h1></a></li>
+                        <li><a href="#"><h1>MENU</h1></a></li>
+                        <li><a href="#"><h1>PRICING</h1></a></li>
+                        <li><a href="#"><h1>CONTACT</h1></a></li>
+                        
+                    </ul>
+                    
+                </ul>
+                 
+
+                <ul id="nav-mobile" class="right hide-on-med-and-down nav-links hamburger-menu valign-wrapper desktop-links">
+                    <li><a href="sass.html">HOME</a></li>
+                    <li><a href="badges.html">SERVICE</a></li>
+                    <li><a href="collapsible.html">MENU</a></li>
+                    <li><a href="collapsible.html">PRICING</a></li>
+                    <li><a href="collapsible.html">CONTACT</a></li>
+                </ul>
+            </div>
+
+            
+         
+          </nav>
+
+                
+    </div>
+    <!-- HeroSection -->
+    <div class="hero-section">
+        <div class="hero-background-placeholder ">
+            <h1 class="hero-title center">GRILLED MEAT IS <span>KING.</span></h1>
+            <p class="center hero-paragraph center">The ultimate destination for meat lovers seeking a sizzling and unforgettable dining experience. With  passion for grilling and dedication to culinary excellence.</p>
+            <button class="btn hero-button center-align"><p>GRILL NOW</p></button>
+        
+        </div>
+    </div>
+    <div class="meat-section">
+        <div class="background-meat-section hide-on-med-and-up"></div>
+        <div class="container meat-section-main-wrapper">
+            <div class="row">
+                <div class="col s12 m6">
+                    <h3 class="center">Grilled Meat Experience</h3>
+                    <p class="center white-text">The ultimate destination for meat lovers seeking a sizzling and unforgettable dining experience. With our passion for grilling and dedication to culinary excellence, we offer a tantalizing menu that showcases the artistry and flavors of grilled meat like no other.</p>
+                </div>
+                <div class="col s12 m6 meat-section-image">
+                    <img src="./assets/Mobile/mobile-meat-image.png" alt="meat" class="responsive-img">
+                </div>
+            </div>
+           
+        </div>  
+       
+    </div>
+
+
+    <!-- JQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+  
+    <!-- Materialize Script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+ 
+    <script>
+        $(document).ready(function(){
+            $('.sidenav').sidenav({
+                edge: "right"
+            });
+        });
+
+       
+
+    </script>
+</body>
+</html>

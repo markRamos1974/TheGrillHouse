@@ -1,0 +1,112 @@
+:root {
+    --red-color: #ED1C24;
+    --white-color: #FFFFFF;
+    --black-color: #262626;
+}
+
+
+
+nav {
+    position: relative;
+    height: 56px !important;
+    background-color: var(--black-color);
+}
+
+nav > .nav-wrapper > a{
+    width: 41px;
+    height: 32px;
+}
+
+nav > .nav-wrapper > a > .logo-placeholder{
+    background-image: url("../assets/Mobile/mobile-nav-logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    width: 41px;
+    height: 32px;
+
+    margin-top: 13px;
+}
+
+
+.nav-links{
+    font-family: "Ubuntu", sans-serif !important;
+    font-weight: 500;
+
+    font-size: 20px;
+}
+
+.hamburger-menu{
+    height: 100%;
+}
+
+.desktop-links > li:first-child > a {
+    color: var(--red-color);
+}
+.desktop-links > li:not(:first-child) > a:hover {
+    color: var(--red-color);
+}
+
+.sidenav-trigger{
+    height: 100% !important;
+    margin: 0px !important;
+}
+
+.sidenav{
+    height: 100%;
+}
+
+.hamburger-menu-side-nav, .hamburger-menu-side-nav > a{
+    height: 56px !important;
+}
+
+.hamburger-menu-side-nav > a{
+    padding-right: 30px;
+    padding-left: 0px;
+}
+
+.hamburger-menu-side-nav > a:hover{
+    background-color: white;
+}
+
+
+.mobile-menu-links{
+    margin-top: 96px;
+}
+
+.mobile-menu-links > li > a:hover {
+    background-color: white;
+}
+
+.mobile-menu-links > li:first-child > a{
+    color: var(--red-color);
+}
+
+.mobile-menu-links > li > a > h1, .mobile-menu-links > li > a{
+    font-size: 50px;
+    height: 55px;
+}
+
+.mobile-menu-links > li{
+    margin-bottom: 27px;
+}
+
+
+@media (min-width: 993px){
+    nav {
+        height: 128px !important;
+    }
+
+    nav > .nav-wrapper > a > .logo-placeholder {
+        background-image: url("../assets/Desktop/desktop-nav-logo.png");
+        width: 132px;
+        height: 103px;
+    }
+
+    .navbar-wrapper{
+        padding-left: 88px;
+        padding-right: 88px;
+    }
+
+}
