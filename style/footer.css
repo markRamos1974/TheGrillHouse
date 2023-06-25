@@ -1,0 +1,118 @@
+:root {
+    --red-color: #ED1C24;
+    --white-color: #FFFFFF;
+    --black-color: #262626;
+}
+
+.footer {
+    padding-top: 36px;
+    padding-bottom: 36px;
+
+    background-color: var(--black-color);
+}
+
+.footer-logo-placeholder{
+    background-image: url("../assets/Mobile/footer-logo-mobile.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    width: 111px;
+    height: 65px;
+
+    margin-bottom: 32px;
+}
+
+.footer-logo-container, .footer-contents-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links-icon > ul > li > a > div {
+    width: 30px;
+    height: 30px;
+
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.links-icon > ul > li > a > .twitter{
+    background-image: url("../assets/Desktop/desktop-twitter.svg");
+}
+
+.links-icon > ul > li > a > .facebook{
+    background-image: url("../assets/Desktop/desktop-facebook.svg");
+}
+
+.links-icon > ul > li > a > .messenger{
+    background-image: url("../assets/Desktop/desktop-messenger.svg");
+}
+
+.links-icon > ul > li > a > .instagram{
+    background-image: url("../assets/Desktop/desktop-instagram.svg");
+}
+
+.links-list-footer{
+
+    margin-top: 0px;
+    margin-bottom: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links-list-footer > li:not(:last-child) {
+    margin-right: 12px;
+}
+
+.footer-links{
+    margin-top: 0px;
+    margin-bottom: 28px ;
+}
+
+.footer-links > li > a {
+    font-size: 20px;
+    color: var(--white-color);
+
+
+    
+}
+
+.footer-links > li:not(:last-child) {
+    margin-right: 25px;
+}
+@media (min-width: 600px) and (max-width: 854px) {
+    .footer-contents-container, .footer-logo-container{
+        width: 100vw !important;
+       }
+}
+
+@media (min-width: 854px) {
+    
+    .footer-logo-placeholder {
+        width: 225px !important;
+        height: 130.95px !important;
+        margin-bottom: 0px !important;
+    }
+
+    .links-list-footer{
+        justify-content: end;
+        align-items: end;
+
+   }
+
+   .credentials{
+    text-align: end !important;
+   }
+
+   .footer{
+    padding-top: 79px;
+    padding-bottom: 79px;
+    
+    
+   }
+   
+}
