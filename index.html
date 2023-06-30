@@ -74,8 +74,10 @@
                     
         </div>
         <!-- HeroSection -->
-        <div class="hero-section">
-            <div class="hero-background-placeholder ">
+        <div class="hero-section parallax-container">
+         
+            <div class="hero-background-placeholder parallax">
+                <img src="./assets/Desktop/desktop-background.png" class="hero-image">
                 <h1 class="hero-title center">GRILLED MEAT IS <span>KING.</span></h1>
                 <p class="center hero-paragraph center">The ultimate destination for meat lovers seeking a sizzling and unforgettable dining experience. With  passion for grilling and dedication to culinary excellence.</p>
                 <button class="btn hero-button center-align"><p>GRILL NOW</p></button>
@@ -139,16 +141,22 @@
         </div>
         <div class="veggy-section">
             <div class="row">
-                <div class="col s12 l6">
+                <div class="col s12 l6 ">
+                
                     <div class="veggy-left-container">
-                        <h3 class="veggy-title white-text">Offers Veggy Menus</h3>
-                        <p class="veggy-paragraph">Not only do we cater to carnivorous cravings, but we also understand the importance of catering to diverse dietary preferences. Our menu includes a selection of grilled vegetarian options, ensuring that everyone can partake in the sizzling goodness.</p>
+                        <div class="contex-container">
+                            <h3 class="veggy-title white-text">Offers Veggy Menus</h3>
+                            <p class="veggy-paragraph">Not only do we cater to carnivorous cravings, but we also understand the importance of catering to diverse dietary preferences. Our menu includes a selection of grilled vegetarian options, ensuring that everyone can partake in the sizzling goodness.</p>
+                        </div>
+                        
                     </div>
                    
                 </div>
                 <div class="col s12 l6">
-                    <div class="veggy-salad-image">
-                        <div class="salad-image"></div>
+                    <div class="veggy-salad-image parallax-container">
+                        <div class="salad-image parallax">
+                            <img src="./assets/Desktop/desktop-salad.png">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -202,6 +210,7 @@
             $('.sidenav').sidenav({
                 edge: "right"
             });
+            $('.parallax').parallax();
         });
 
        
