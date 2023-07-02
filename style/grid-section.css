@@ -1,0 +1,67 @@
+
+.grid-section {
+    padding-top: 86px;
+
+    background-color: var(--black-color);
+}
+
+
+.grid-tagline{
+    width: 253px;
+    font-size: 50px;
+    font-weight: 300;
+
+    margin: auto;
+
+    margin-bottom: 40px;
+}
+.grid-tagline > span{
+    color: var(--red-color);
+}
+
+.parallax-container-meat-image{
+    height: 400px !important;
+}
+.parallax-container-card-image{
+    height: 400px !important;
+}
+
+@media (max-width: 601px){
+    .first-layer{
+        height: 200px;
+    }
+    .parallax-container-meat-image{
+        height: 150px !important;
+    }
+
+    .parallax-container-card-image{
+        height: 130px !important;
+    }
+}
+
+
+@media (min-width: 602px) and (max-width: 992px){
+
+    .grid-tagline{
+        font-size: 70px !important;
+        width: 400px;
+    }
+
+    .first-layer{
+        height: 300px;
+    }
+    .parallax-container-meat-image{
+        height: 200px !important;
+    }
+
+    .parallax-container-card-image{
+        height: 200px !important;
+    }
+}
+
+@media (min-width: 993px){
+    .grid-tagline{
+        font-size: 80px !important;
+        width: 700px;
+    }
+}
